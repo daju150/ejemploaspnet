@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FormularioPersona</title>
+</head>
+<body>
+    <div> 
+
+        <h3>Datos personales</h3>
+
+        <form action ="RecibirPersona" method="post">
+            <label>Nombre: </label><input type="text" name="nombre" value=""/><br />
+            <label>Apellido: </label><input type="text" name="apellido" value="" /><br />
+            <label>Edad: </label><input type="text" name="edad" value="" /><br />
+            <input type="submit" name="enviar" value="Enviar"/>
+        </form>
+
+    </div>
+</body>
+</html>
